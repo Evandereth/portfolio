@@ -21,13 +21,13 @@ export default function Profile(){
 
                 <div className="icons w-full flex flex-row justify-end items-center gap-3">
                     <button className="w-8 h-6 border flex items-center justify-center rounded-sm">
-                        <a href="">
+                        <a href="https://x.com/0x_evander">
                             <FaXTwitter />
                         </a>
                     </button>
 
                     <button className="w-8 h-6 border flex items-center justify-center rounded-sm">
-                        <a href="">
+                        <a href="https://t.me/EvanderOfficial">
                             <FaTelegramPlane className="text-[#0088cc]"/>
                         </a>
                     </button>
