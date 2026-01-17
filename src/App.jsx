@@ -5,7 +5,7 @@ function App() {
 
   return (
    <>
-    <div className="w-[90%] mx-auto bg-green-200">
+    <div className="w-[95%] mx-auto bg-gray-100 py-3">
       <section>
         <Profile />
       </section>
