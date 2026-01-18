@@ -5,14 +5,14 @@ import { FaTelegramPlane, FaDiscord } from "react-icons/fa";
 export default function Profile(){
     return(
         <>
-        <div className="flex justify-between items-end gap-2 px-1 py-2 bg-white rounded-2xl">
+        <div className="flex justify-between items-end gap-2 px-1 py-2">
             <div className="w-40 h-40">
                 <img className="w-full h-full object-cover rounded-full" src={pfp} alt="brand picture" />
             </div>
 
             <div className=" w-[50%] h-40 flex flex-col justify-center items-end pr-3 border-l border-dotted rounded-xl">
                 
-                <h1 className="font-bold text-right text-3xl border-b pb-1">
+                <h1 className=" w-full font-bold text-right text-[1.6em] border-b pb-1">
                     KOLs MANAGER
                 </h1>
                 <h2 className="text-2xl font-semibold  pb-1 mt-2 mb-3">
