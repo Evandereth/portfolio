@@ -14,7 +14,7 @@ export default function Experience(){
             name: "CAFE | $CAFE",
             title: "A. KOL Mngr",
             chain: "SOL - Meme",
-            ath: "$10M",
+            ath: "$5M",
             achievements:["Sourced, Vetted and activated top tier KOLs(ETH & SOL), contributing to a measurable increase in awareness, community growth and the narrative traction.", "Contributed to end-to-end KOL campaign that boosted content reach, impressions and sustained discussion through Launch and post-launch phase.", "Supported trading momentum by cordinationg campaign that aligned with increased volume, chart activity and consistent interaction on CT."]
         },{
             id:3,
