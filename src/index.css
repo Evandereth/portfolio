@@ -1,10 +1,37 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
   background-color:#f3f4f6;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .components-bg{
   background-color: #fff;
   margin-top: 1em;
   border-radius: 1em;
+}
+.name{
+   font-family: "Permanent Marker", cursive;
+}
+
+@keyframes globe {
+  0%{
+    transform: rotate(0);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+.animate-globe{
+  animation: globe 5s ease-in-out infinite;
 }

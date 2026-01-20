@@ -27,32 +27,34 @@ export default function Experience(){
     ]
     return(
         <>
-        <div className="flex flex-col gap-3 mt-3">
+        <div className=" w-full flex flex-col gap-5 mt-3 md:flex-row md:flex-wrap md:justify-start items-center">
             
             {
                 experience.map((exp)=>(
                     
-                    <div key={exp.id} className="bg-white h-100 p-3 rounded-2xl ">
+                    <div key={exp.id} className="w-full lg:w-full xl:w-110 bg-white h-100 p-5 rounded-2xl">
 
                         <div  className="flex flex-row justify-between item-center py-3 border-b">
                             <label className="w-[50%]">
-                                <h1 className="font-bold text-xl">
+                                <h1 className="name font-bold text-lg">
                                     {exp.name}
                                 </h1>
-                                <p className="font-extralight text-gray-500 text-sm">{exp.title} <span className="font-semibold">- 🔗{exp.chain}</span></p>
+                                <p className="font-extralight text-gray-500 text-sm">{exp.title} <span className="font-semibold text-[.9em]">- 🔗{exp.chain}</span></p>
                             </label>
-                            <div className="bg-gray-100 px-5 py-1 rounded-xl flex justify-center items-center gap-1 cursor-pointer">
+
+                            <div className="bg-gray-100 w-[48%] h-10 px-4 rounded-xl flex justify-center items-center gap-1 cursor-pointer">
                                 <p className="text-sm font-extralight">ATH -</p>
-                                <h1 className="text-sm font-extralight flex justify-center items-center gap-1"><span className="font-bold text-xl">{exp.ath}</span> mcap</h1>
-                            </div> 
+                                <h1 className="text-sm font-extralight flex justify-center items-center gap-1"><span className="font-bold text-lg">{exp.ath}</span> mcap</h1>
+                            </div>
+
                         </div>
 
                         <div>
-                            <ul>
+                            <ul className="list-disc flex flex-col gap-3 p-3">
                                 {
                                     exp.achievements.map((list)=>(
 
-                                        <li key={list} className="flex flex-row justify-start items-start gap-3 my-2"> <span className="font-bolder text-xl">-</span>
+                                        <li key={list} className="text-sm"> 
                                         {list}
                                         </li>
                                     ))
